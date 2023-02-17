@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  width  : 100%;
+
+  .listContainer {
+    flex: 8;
+
+    .widgets {
+      display: flex;
+      margin : 40px
+    }
+
+  }
+
+  .listContainerTable {
+    margin    : 40px;
+    padding   : 10px;
+    margin-top: 20px;
+  }
+}
