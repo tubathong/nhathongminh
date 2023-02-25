@@ -64,7 +64,7 @@ const Home = () => {
           />
         </div>
         <div className="charts">
-          <Featured data={weatherData} />
+         {/* <Featured data={newWeatherData} /> */}
           <ExampleChart title="" aspect={2 / 1} />
         </div>
       </div>

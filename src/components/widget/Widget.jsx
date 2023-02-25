@@ -97,13 +97,13 @@ const Widget = ({ type, data, newdata }) => {
       break;
     case "canhbao":
       dulieu = {
-        title: "Cảnh báo nhiệt độ",
+        title: "Đèn tự động sân",
         isMoney: false,
         amount: newWeatherData2 ? (
-          newWeatherData2.Flame === 0 ? (
-            "Bình thường"
-          ) : newWeatherData2.Flame === 1 ? (
-            "Cảnh báo"
+          newWeatherData2.LDR === 0 ? (
+            "Tắt"
+          ) : newWeatherData2.LDR === 1 ? (
+            "Mở"
           ) : (
             <PulseLoader color="#36d7b7" />
           )

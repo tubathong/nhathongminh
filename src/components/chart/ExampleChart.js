@@ -42,7 +42,7 @@ const ExampleChart = () => {
     : [];
   return (
     <LineChart
-      width={800}
+      width={1250}
       height={400}
       data={data}
       margin={{
